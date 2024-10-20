@@ -11,14 +11,44 @@
 		DD2DFC9F2C9AE40E00A0CAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2DFC9E2C9AE40E00A0CAB5 /* ContentView.swift */; };
 		DD2DFCA12C9AE41000A0CAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2DFCA02C9AE41000A0CAB5 /* Assets.xcassets */; };
 		DD2DFCA42C9AE41000A0CAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2DFCA32C9AE41000A0CAB5 /* Preview Assets.xcassets */; };
+		DD2DFCAB2C9AE88A00A0CAB5 /* CameraScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2DFCAA2C9AE88A00A0CAB5 /* CameraScannerViewController.swift */; };
+		DD2DFCAD2C9AF2B200A0CAB5 /* CameraScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2DFCAC2C9AF2B200A0CAB5 /* CameraScanner.swift */; };
+		DD4F7EBF2CA6B56A00EDF536 /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7EBE2CA6B56A00EDF536 /* GlobalVars.swift */; };
+		DD4F7EC32CA6C91800EDF536 /* AAMVAData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7EC22CA6C91800EDF536 /* AAMVAData.swift */; };
+		DDB386B82CAA9B4000693ADA /* IDInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB386B72CAA9B4000693ADA /* IDInfoView.swift */; };
+		DDB386BA2CAAEFD400693ADA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB386B92CAAEFD400693ADA /* HistoryView.swift */; };
+		DDCDB6A22CAC1463001C5026 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDCDB6A02CAC1463001C5026 /* Model.xcdatamodeld */; };
+		DDCDB6A52CAC152E001C5026 /* DriverIDHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDB6A42CAC152E001C5026 /* DriverIDHistory+CoreDataProperties.swift */; };
+		DDCDB6A62CAC152E001C5026 /* DriverIDHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDB6A32CAC152E001C5026 /* DriverIDHistory+CoreDataClass.swift */; };
+		DDCDB6A82CAC154F001C5026 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDB6A72CAC154F001C5026 /* CoreDataManager.swift */; };
+		DDEC385D2CA415F6008F795D /* GlobalFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC385C2CA415F6008F795D /* GlobalFuncs.swift */; };
+		DDF58D212CC2655300BB595F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF58D202CC2655300BB595F /* SettingsView.swift */; };
+		DDF58D3E2CC57EA000BB595F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF58D3D2CC57EA000BB595F /* OnboardingView.swift */; };
+		F807B04DDE5448C325FDD714 /* Pods_IDScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFE087FFF29E4CA9FA07B66 /* Pods_IDScanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FFE087FFF29E4CA9FA07B66 /* Pods_IDScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2747A923A892F460D1D4EE04 /* Pods-IDScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDScanner.release.xcconfig"; path = "Target Support Files/Pods-IDScanner/Pods-IDScanner.release.xcconfig"; sourceTree = "<group>"; };
+		8BE1B6D089A31FA7D25AE0DA /* Pods-IDScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDScanner.debug.xcconfig"; path = "Target Support Files/Pods-IDScanner/Pods-IDScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		DD2DFC992C9AE40E00A0CAB5 /* IDScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2DFC9C2C9AE40E00A0CAB5 /* IDScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScannerApp.swift; sourceTree = "<group>"; };
 		DD2DFC9E2C9AE40E00A0CAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD2DFCA02C9AE41000A0CAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2DFCA32C9AE41000A0CAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2DFCAA2C9AE88A00A0CAB5 /* CameraScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerViewController.swift; sourceTree = "<group>"; };
+		DD2DFCAC2C9AF2B200A0CAB5 /* CameraScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanner.swift; sourceTree = "<group>"; };
+		DD4F7EBE2CA6B56A00EDF536 /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
+		DD4F7EC22CA6C91800EDF536 /* AAMVAData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAMVAData.swift; sourceTree = "<group>"; };
+		DDB386B72CAA9B4000693ADA /* IDInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDInfoView.swift; sourceTree = "<group>"; };
+		DDB386B92CAAEFD400693ADA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DDCDB6A12CAC1463001C5026 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		DDCDB6A32CAC152E001C5026 /* DriverIDHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DriverIDHistory+CoreDataClass.swift"; path = "/Users/kovalevgleb/Documents/SwiftDev/IDScanner/IDScanner/Data/DriverIDHistory+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		DDCDB6A42CAC152E001C5026 /* DriverIDHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DriverIDHistory+CoreDataProperties.swift"; path = "/Users/kovalevgleb/Documents/SwiftDev/IDScanner/IDScanner/Data/DriverIDHistory+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		DDCDB6A72CAC154F001C5026 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DDEC385C2CA415F6008F795D /* GlobalFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFuncs.swift; sourceTree = "<group>"; };
+		DDF58D202CC2655300BB595F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DDF58D3D2CC57EA000BB595F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F807B04DDE5448C325FDD714 /* Pods_IDScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		404BEAAFCE2A2B6B6170F8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFE087FFF29E4CA9FA07B66 /* Pods_IDScanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE076E26FEE0D785E4091446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1B6D089A31FA7D25AE0DA /* Pods-IDScanner.debug.xcconfig */,
+				2747A923A892F460D1D4EE04 /* Pods-IDScanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD2DFC902C9AE40E00A0CAB5 = {
 			isa = PBXGroup;
 			children = (
 				DD2DFC9B2C9AE40E00A0CAB5 /* IDScanner */,
 				DD2DFC9A2C9AE40E00A0CAB5 /* Products */,
+				BE076E26FEE0D785E4091446 /* Pods */,
+				404BEAAFCE2A2B6B6170F8D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +101,11 @@
 		DD2DFC9B2C9AE40E00A0CAB5 /* IDScanner */ = {
 			isa = PBXGroup;
 			children = (
-				DD2DFC9C2C9AE40E00A0CAB5 /* IDScannerApp.swift */,
-				DD2DFC9E2C9AE40E00A0CAB5 /* ContentView.swift */,
-				DD2DFCA02C9AE41000A0CAB5 /* Assets.xcassets */,
 				DD2DFCA22C9AE41000A0CAB5 /* Preview Content */,
+				DDCDB69C2CAC13BB001C5026 /* Managers */,
+				DDCDB6992CAC1359001C5026 /* Global */,
+				DDCDB69A2CAC1394001C5026 /* Data */,
+				DDCDB69B2CAC139D001C5026 /* View */,
 			);
 			path = IDScanner;
 			sourceTree = "<group>";
@@ -67,6 +118,90 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DDCDB6992CAC1359001C5026 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DFCA02C9AE41000A0CAB5 /* Assets.xcassets */,
+				DD4F7EBE2CA6B56A00EDF536 /* GlobalVars.swift */,
+				DDEC385C2CA415F6008F795D /* GlobalFuncs.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		DDCDB69A2CAC1394001C5026 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDB6A32CAC152E001C5026 /* DriverIDHistory+CoreDataClass.swift */,
+				DDCDB6A42CAC152E001C5026 /* DriverIDHistory+CoreDataProperties.swift */,
+				DD4F7EC22CA6C91800EDF536 /* AAMVAData.swift */,
+				DDCDB6A02CAC1463001C5026 /* Model.xcdatamodeld */,
+				DDCDB6A72CAC154F001C5026 /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DDCDB69B2CAC139D001C5026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF58D3C2CC57E8800BB595F /* Onboarding */,
+				DDF58D1F2CC2654400BB595F /* Settings */,
+				DDCDB69D2CAC13D2001C5026 /* AppView */,
+				DDCDB69E2CAC13E2001C5026 /* ScanView */,
+				DDCDB69F2CAC13ED001C5026 /* HistoryView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDCDB69C2CAC13BB001C5026 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DFCAA2C9AE88A00A0CAB5 /* CameraScannerViewController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DDCDB69D2CAC13D2001C5026 /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DFC9C2C9AE40E00A0CAB5 /* IDScannerApp.swift */,
+				DD2DFC9E2C9AE40E00A0CAB5 /* ContentView.swift */,
+			);
+			path = AppView;
+			sourceTree = "<group>";
+		};
+		DDCDB69E2CAC13E2001C5026 /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DFCAC2C9AF2B200A0CAB5 /* CameraScanner.swift */,
+				DDB386B72CAA9B4000693ADA /* IDInfoView.swift */,
+			);
+			path = ScanView;
+			sourceTree = "<group>";
+		};
+		DDCDB69F2CAC13ED001C5026 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				DDB386B92CAAEFD400693ADA /* HistoryView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		DDF58D1F2CC2654400BB595F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DDF58D202CC2655300BB595F /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DDF58D3C2CC57E8800BB595F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DDF58D3D2CC57EA000BB595F /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD2DFCA72C9AE41000A0CAB5 /* Build configuration list for PBXNativeTarget "IDScanner" */;
 			buildPhases = (
+				E07293A35AC44C8E93DE8C9C /* [CP] Check Pods Manifest.lock */,
 				DD2DFC952C9AE40E00A0CAB5 /* Sources */,
 				DD2DFC962C9AE40E00A0CAB5 /* Frameworks */,
 				DD2DFC972C9AE40E00A0CAB5 /* Resources */,
@@ -132,13 +268,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E07293A35AC44C8E93DE8C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IDScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD2DFC952C9AE40E00A0CAB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCDB6A52CAC152E001C5026 /* DriverIDHistory+CoreDataProperties.swift in Sources */,
+				DD2DFCAB2C9AE88A00A0CAB5 /* CameraScannerViewController.swift in Sources */,
+				DD2DFCAD2C9AF2B200A0CAB5 /* CameraScanner.swift in Sources */,
+				DDF58D3E2CC57EA000BB595F /* OnboardingView.swift in Sources */,
 				DD2DFC9F2C9AE40E00A0CAB5 /* ContentView.swift in Sources */,
 				DD2DFC9D2C9AE40E00A0CAB5 /* IDScannerApp.swift in Sources */,
+				DDB386BA2CAAEFD400693ADA /* HistoryView.swift in Sources */,
+				DDB386B82CAA9B4000693ADA /* IDInfoView.swift in Sources */,
+				DDF58D212CC2655300BB595F /* SettingsView.swift in Sources */,
+				DDEC385D2CA415F6008F795D /* GlobalFuncs.swift in Sources */,
+				DD4F7EBF2CA6B56A00EDF536 /* GlobalVars.swift in Sources */,
+				DDCDB6A22CAC1463001C5026 /* Model.xcdatamodeld in Sources */,
+				DD4F7EC32CA6C91800EDF536 /* AAMVAData.swift in Sources */,
+				DDCDB6A82CAC154F001C5026 /* CoreDataManager.swift in Sources */,
+				DDCDB6A62CAC152E001C5026 /* DriverIDHistory+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +356,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -197,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -245,7 +419,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -254,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -266,6 +440,7 @@
 		};
 		DD2DFCA82C9AE41000A0CAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE1B6D089A31FA7D25AE0DA /* Pods-IDScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,11 +450,13 @@
 				DEVELOPMENT_TEAM = J2F6X98HJC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,14 +464,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a8stern.IDScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD2DFCA92C9AE41000A0CAB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2747A923A892F460D1D4EE04 /* Pods-IDScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,11 +486,13 @@
 				DEVELOPMENT_TEAM = J2F6X98HJC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +500,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a8stern.IDScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +532,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDCDB6A02CAC1463001C5026 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDCDB6A12CAC1463001C5026 /* Model.xcdatamodel */,
+			);
+			currentVersion = DDCDB6A12CAC1463001C5026 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = /Users/kovalevgleb/Documents/SwiftDev/IDScanner/IDScanner/Data/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD2DFC912C9AE40E00A0CAB5 /* Project object */;
 }
